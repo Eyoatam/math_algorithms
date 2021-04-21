@@ -1,5 +1,5 @@
 import { assertStrictEquals } from "https://deno.land/std@0.93.0/testing/asserts.ts";
-import GCD from "./GCD.ts";
+import GCD from "./euclidean_algorithm.ts";
 
 Deno.test("GCD", () => {
   assertStrictEquals(GCD(16, 4), 4);
