@@ -2,7 +2,7 @@
  * returns the greatest commom divisor(GCD) of two numbers
  * Example:
  *  ```ts
- *  GCD(16, 4);
+ *  euclideanAlgorithm(16, 4);
  *  // will return 4
  *  ```
  * @param firstNum - the first number
@@ -11,7 +11,7 @@
 
 export function euclideanAlgorithm(
   firstNum: number,
-  secondNum: number
+  secondNum: number,
 ): number {
   // Make the input numbers positive by taking the absolute value of the numbers
   const a = Math.abs(firstNum);
@@ -22,6 +22,6 @@ export function euclideanAlgorithm(
   if (b === 0) {
     return a;
   } else {
-    return GCD(b, a % b);
+    return euclideanAlgorithm(b, a % b);
   }
 }

@@ -3,6 +3,7 @@
 [![ci](https://github.com/Eyoatam/math_algorithms/actions/workflows/ci.yml/badge.svg)](https://github.com/Eyoatam/math_algorithms/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/eyoatam/math_algorithms/branch/main/graph/badge.svg?token=w6s3ODtULz)](https://codecov.io/gh/eyoatam/math_algorithms)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Eyoatam/tiny-compiler/blob/main/LICENSE)
+[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/raw.githubusercontent.com%2FEyoatam%2Fmath_algorithms%2Fmain%2Fmod.ts)
 
 > This repository contains [deno](https://deno.land) and
 > [TypeScript](https://www.typescriptlang.org) based examples of some math
