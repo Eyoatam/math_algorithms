@@ -9,7 +9,10 @@
  * @param secondNum - the second number
  */
 
-export default function GCD(firstNum: number, secondNum: number): number {
+export function euclideanAlgorithm(
+  firstNum: number,
+  secondNum: number
+): number {
   // Make the input numbers positive by taking the absolute value of the numbers
   const a = Math.abs(firstNum);
   const b = Math.abs(secondNum);

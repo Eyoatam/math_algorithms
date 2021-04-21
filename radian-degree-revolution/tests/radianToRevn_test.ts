@@ -1,5 +1,5 @@
 import { assertStrictEquals } from "https://deno.land/std@0.93.0/testing/asserts.ts";
-import radianToRevn from "../radianToRevn.ts";
+import { radianToRevn } from "../radianToRevn.ts";
 
 Deno.test("radianToRevn", () => {
   assertStrictEquals(radianToRevn(0), Infinity);

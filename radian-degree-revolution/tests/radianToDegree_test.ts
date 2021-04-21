@@ -1,5 +1,5 @@
 import { assertStrictEquals } from "https://deno.land/std@0.93.0/testing/asserts.ts";
-import radianToDegree from "../radianToDegree.ts";
+import { radianToDegree } from "../radianToDegree.ts";
 
 Deno.test("radianToDegree", () => {
   assertStrictEquals(radianToDegree(0), 0);
