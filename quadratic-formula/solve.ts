@@ -1,5 +1,6 @@
 /**
  * This function uses the `quadratic formula` to calculate the solution for a quadratic equation
+ * with the given a, b and c values
  * @param a
  * @param b
  * @param c
