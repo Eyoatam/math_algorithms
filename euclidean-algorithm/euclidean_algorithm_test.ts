@@ -1,4 +1,4 @@
-import { assertStrictEquals } from "https://deno.land/std@0.93.0/testing/asserts.ts";
+import { assertStrictEquals } from "https://deno.land/std@0.99.0/testing/asserts.ts";
 import { euclideanAlgorithm } from "./euclidean_algorithm.ts";
 
 Deno.test("GCD", () => {
