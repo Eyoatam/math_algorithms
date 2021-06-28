@@ -10,7 +10,7 @@
 export function solveEqn(
   a: number,
   b: number,
-  c: number,
+  c: number
 ): {
   firstSolution: number;
   secondSolution: number;
